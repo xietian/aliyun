@@ -1,0 +1,27 @@
+{
+    "name": "aliyun",
+    "description": "aliyun service inlcude vod oss etc.",
+    "keywords": ["aliyun","vod","oos"],
+    "homepage": "",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "andy",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "recommend": {
+        "ext-zip": "*",
+        "ext-gd2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aliyun\\core\\": "src/core",
+            "aliyun\\vod\\": "src/vod/Request/V20170321/"
+        }
+    }
+}
