@@ -19,6 +19,9 @@ namespace core\Regions;
  * under the License.
  */
 
+use core\Http\HttpHelper;
+use core\RpcAcsRequest;
+
 define("LOCATION_SERVICE_PRODUCT_NAME", "Location");
 define("LOCATION_SERVICE_DOMAIN", "location.aliyuncs.com");
 define("LOCATION_SERVICE_VERSION", "2015-06-12");

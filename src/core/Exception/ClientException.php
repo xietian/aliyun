@@ -18,6 +18,8 @@ namespace core\Exception;
  * specific language governing permissions and limitations
  * under the License.
  */
+use Exception;
+
 class ClientException extends Exception
 {
     public function __construct($errorMessage, $errorCode)

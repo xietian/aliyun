@@ -19,6 +19,15 @@ namespace core\Profile;
  * under the License.
  */
 
+use core\Auth\Credential;
+use core\Auth\EcsRamRoleCredential;
+use core\Auth\RamRoleArnCredential;
+use core\Auth\ShaHmac1Signer;
+use core\Regions\Endpoint;
+use core\Regions\EndpointProvider;
+use core\Regions\LocationService;
+use core\Regions\ProductDomain;
+
 define("AUTH_TYPE_RAM_AK", "RAM_AK");
 define("AUTH_TYPE_RAM_ROLE_ARN", "RAM_ROLE_ARN");
 define("AUTH_TYPE_ECS_RAM_ROLE", "ECS_RAM_ROLE");
