@@ -4,7 +4,7 @@
     "keywords": ["alivod","vod","oos"],
     "homepage": "",
     "type": "yii-extensions",
-    "license": "LGPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "andy",
