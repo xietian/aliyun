@@ -1,10 +1,10 @@
 {
-    "name": "alivod",
+    "name": "alivod/vod",
     "description": "alivod service inlcude vod oss etc.",
     "keywords": ["alivod","vod","oos"],
     "homepage": "",
     "type": "yii-extensions",
-    "license": "MIT",
+    "license": "LGPL",
     "authors": [
         {
             "name": "andy",
