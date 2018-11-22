@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetMezzanineInfoRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetMezzanineInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

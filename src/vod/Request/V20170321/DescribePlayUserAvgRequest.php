@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DescribePlayUserAvgRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DescribePlayUserAvgRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

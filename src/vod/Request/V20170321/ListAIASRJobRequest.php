@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListAIASRJobRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListAIASRJobRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

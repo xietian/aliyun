@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetCDNStatisSumRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetCDNStatisSumRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

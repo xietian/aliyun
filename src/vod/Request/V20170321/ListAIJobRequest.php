@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListAIJobRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListAIJobRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

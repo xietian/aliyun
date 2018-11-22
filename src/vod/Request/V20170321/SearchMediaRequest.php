@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class SearchMediaRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class SearchMediaRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

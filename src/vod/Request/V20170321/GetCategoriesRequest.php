@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetCategoriesRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetCategoriesRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

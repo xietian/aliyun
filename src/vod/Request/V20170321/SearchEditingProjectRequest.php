@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class SearchEditingProjectRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class SearchEditingProjectRequest extends  RpcAcsRequest
 {
 	function  __construct()
 	{

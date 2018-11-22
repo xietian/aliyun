@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListAIVideoTerrorismRecogJobRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListAIVideoTerrorismRecogJobRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

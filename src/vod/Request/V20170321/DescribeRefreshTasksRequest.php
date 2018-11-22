@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DescribeRefreshTasksRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DescribeRefreshTasksRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

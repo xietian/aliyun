@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetAuditHistoryRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetAuditHistoryRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

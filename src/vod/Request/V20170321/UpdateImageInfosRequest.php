@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class UpdateImageInfosRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class UpdateImageInfosRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

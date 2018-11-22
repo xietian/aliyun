@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DeleteMezzaninesRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DeleteMezzaninesRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DescribeCdnDomainLogsRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DescribeCdnDomainLogsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetOSSStatisRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetOSSStatisRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DeleteStreamRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DeleteStreamRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

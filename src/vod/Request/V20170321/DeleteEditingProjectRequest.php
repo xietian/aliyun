@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DeleteEditingProjectRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DeleteEditingProjectRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

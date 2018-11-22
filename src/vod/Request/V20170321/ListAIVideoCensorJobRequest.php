@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListAIVideoCensorJobRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListAIVideoCensorJobRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

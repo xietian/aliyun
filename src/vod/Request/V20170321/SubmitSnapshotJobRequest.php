@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class SubmitSnapshotJobRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class SubmitSnapshotJobRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

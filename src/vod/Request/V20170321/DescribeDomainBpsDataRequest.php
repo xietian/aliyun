@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DescribeDomainBpsDataRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DescribeDomainBpsDataRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

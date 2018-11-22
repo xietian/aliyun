@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class SubmitAIVideoSummaryJobRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class SubmitAIVideoSummaryJobRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

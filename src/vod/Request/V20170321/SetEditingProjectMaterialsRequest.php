@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class SetEditingProjectMaterialsRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class SetEditingProjectMaterialsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

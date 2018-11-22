@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetImageInfoRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetImageInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

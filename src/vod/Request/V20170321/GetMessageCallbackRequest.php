@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetMessageCallbackRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetMessageCallbackRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

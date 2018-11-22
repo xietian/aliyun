@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class OpenVodServiceRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class OpenVodServiceRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

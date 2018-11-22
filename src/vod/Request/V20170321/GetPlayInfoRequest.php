@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class GetPlayInfoRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class GetPlayInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

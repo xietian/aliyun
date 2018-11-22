@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DeleteCategoryRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DeleteCategoryRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

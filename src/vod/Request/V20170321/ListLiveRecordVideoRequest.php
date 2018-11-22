@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListLiveRecordVideoRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListLiveRecordVideoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

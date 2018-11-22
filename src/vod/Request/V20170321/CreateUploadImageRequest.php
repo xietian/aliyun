@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class CreateUploadImageRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class CreateUploadImageRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

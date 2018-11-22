@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class UpdateVideoInfoRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class UpdateVideoInfoRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

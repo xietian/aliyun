@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class DescribeDomainFlowDataRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class DescribeDomainFlowDataRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

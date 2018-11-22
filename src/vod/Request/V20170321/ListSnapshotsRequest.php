@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListSnapshotsRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListSnapshotsRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

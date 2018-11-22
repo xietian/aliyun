@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class PushObjectCacheRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class PushObjectCacheRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{

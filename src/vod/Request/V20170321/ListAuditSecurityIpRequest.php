@@ -19,7 +19,9 @@
  */
 namespace vod\Request\V20170321;
 
-class ListAuditSecurityIpRequest extends \RpcAcsRequest
+use core\RpcAcsRequest;
+
+class ListAuditSecurityIpRequest extends RpcAcsRequest
 {
 	function  __construct()
 	{
