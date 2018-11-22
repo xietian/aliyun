@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "alivod\\core\\": "src/core",
-            "alivod\\vod\\": "src/vod/Request/V20170321/"
+            "core\\": "src/core",
+            "vod\\Request\\V20170321": "src/vod/Request/V20170321/"
         }
     }
 }
