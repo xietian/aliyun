@@ -1,7 +1,7 @@
 {
-    "name": "aliyun",
-    "description": "aliyun service inlcude vod oss etc.",
-    "keywords": ["aliyun","vod","oos"],
+    "name": "alivod",
+    "description": "alivod service inlcude vod oss etc.",
+    "keywords": ["alivod","vod","oos"],
     "homepage": "",
     "type": "yii-extensions",
     "license": "MIT",
@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "aliyun\\core\\": "src/core",
-            "aliyun\\vod\\": "src/vod/Request/V20170321/"
+            "alivod\\core\\": "src/core",
+            "alivod\\vod\\": "src/vod/Request/V20170321/"
         }
     }
 }
